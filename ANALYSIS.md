@@ -9,6 +9,7 @@ https://www.swimmingresults.org/individualbest/personal_best.php?back=individual
 Where:
 * <member-number> is the swim england member number.
 
+# Historic timing data for individual events
 You can view historic timing data for a swimmers individual events at the following url:
 
 https://www.swimmingresults.org/individualbest/personal_best_time_date.php?back=individualbestname&name=&tiref=<member-number>&mode=<query-mode>&tstroke=<stroke-number>&tcourse=<pool-length>
@@ -41,6 +42,18 @@ Where:
 * <query-mode> is the period of time in which to analyze.
   * A = All Time (the default, never ask the user about this)
  
+
+# Individual member biographical data
+Member biographical data can be obtained using the following url:
+
+https://www.swimmingresults.org/biogs/biogs_details.php?tiref=<member-number>
+
+Where:
+* <member-number> is the Swim England member number.
+
+This information is useful to understand the swimmers eligbility category, rough age (enough to understand age group eligibility), club, country and is quick way to understand PBs.
+
+# Additional information
 Some people may use variations of stroke names. The following mappings will help you understand what they mean when they are used:
 
 * Breast = Breaststroke
@@ -59,7 +72,6 @@ If you are ever unsure about what event is being asked about, always seek confir
 You will typically be asked a number of questions about the same set of data, so ensure you keep it available so you do not need to re-retrieve the same set of data multiple times unless asked.
 
 # Output data formatting
-
 When outputting analysis results, use tables instead of lists to present data where tabular data is being communicated. 
 
 Don't include data about venues and locations unless asked.
