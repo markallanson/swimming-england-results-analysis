@@ -1,5 +1,5 @@
 # Swim England swimming times analysis
-This repository contains some prompting that allows [gemini-cli](https://github.com/google-gemini/gemini-cli) to perform analysis of time results from Swim England licenses meets.
+This repository contains some prompting that allows [gemini-cli](https://github.com/google-gemini/gemini-cli) to perform analysis of time results from Swim England licensed meets.
 
 It currently only supports individual time analysis by querying for specific swim england members only. There is no support for analysing event specific data not rooted in a Swim England member. 
 
@@ -22,6 +22,6 @@ Compare two swimmers in a specific event
 
 Determine qualifying likelyhood for a single event in a meets
 
-   > analyze the years progression for member 123456 in 100m breast and comment on the likelyhood of qualifying for <future meet> based on last years qualifing time requirements
+   > analyze the years progression for member 123456 in 100m breast and comment on the likelyhood of qualifying for /future meet name/ based on last years qualifing time requirements
 
 
