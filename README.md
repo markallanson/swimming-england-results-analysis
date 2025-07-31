@@ -8,20 +8,21 @@ Install gemini-cli, clone the repository, then run `gemini`.
 
 # Example queries
 
-Summarize PBs for a single swimmer:
+Summarize PBs for a single swimmer (it will ask if it needs help identifying the correct swimmer):
 
-   > summarize member 12345567
+   > Show Adam Peaty's PBs
 
-Drill into details about a specific event.
+Drill into details about a specific event (follow-on from the prior query).
 
    > analyze the progression in 200m free
 
 Compare two swimmers in a specific event
 
-   > compare the results of members 123456 and 654321 in 50m breast
+   > compare the results of Adam Peaty and 
+ Ross Murdoch in 50m breast
 
 Determine qualifying likelyhood for a single event in a meets
 
-   > analyze the years progression for member 123456 in 100m breast and comment on the likelyhood of qualifying for /future meet name/ based on last years qualifing time requirements
+   > analyze this years progression for My Swimmer Name in 100m breast and comment on the likelyhood of qualifying for /future meet name/ based on last years qualifing time requirements
 
 

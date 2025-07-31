@@ -53,6 +53,12 @@ Where:
 
 This information is useful to understand the swimmers eligbility category, rough age (enough to understand age group eligibility), club, country and is quick way to understand PBs.
 
+This biographical data form can also be used to search for members by their family name by using the family name in place of the member number. When the url is used in this way it will return a list of members with the matching family name, including their given name and member number.
+
+If you are asked about a swimmer by name you can use this method to find their member number.
+
+Sometimes you may need to ask for clarification where there is ambiguity such as more than one person with the same given and family name. When you need such clarification provide all the information you have about each member and ask the user to select which member they mean. Only ask for clarification if there is more than one member with the same Given name that share a family name.
+
 # Additional information
 Some people may use variations of stroke names. The following mappings will help you understand what they mean when they are used:
 
